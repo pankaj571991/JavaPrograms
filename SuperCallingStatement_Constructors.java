@@ -31,4 +31,4 @@ public class SuperCallingStatement_Constructors extends Sreenshot
 	}
 	
 }
-//Super Calling Statement
+//Super Calling Statement Non-Parameterized
