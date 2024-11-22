@@ -1,12 +1,23 @@
-package testngpackage;
+package testngprograms;
 
 import org.testng.annotations.Test;
 
-public class TestCase1 extends LaunchQuit
+public class TestCase1
 {
 	@Test
-	public void login_searching_add_login()
+	public void login()
 	{
-		System.out.println("Writing script of just searching and adding it to the cart");
+		
 	}
+	@Test
+	public void logout()
+	{
+		
+	}
+	@Test
+	public void registration()
+	{
+		
+	}
+	
 }
