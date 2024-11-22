@@ -1,24 +1,13 @@
-package accessspecifier;
+package testngpackage;
 
-import abstractclasses.Case1;
+import org.testng.annotations.Test;
 
-public class Testcase2 
+public class TestCase2 extends LaunchQuit
 {
-	public void add()
+	@Test
+	public void login_searching_add_logout()
 	{
-		System.out.println("Add");
+		System.out.println("Writing script os just searching ");
+
 	}
-	private void sub()
-	{
-		System.out.println("sub");
-	}
-	void mul()
-	{
-		System.out.println("mul");
-	}
-	protected void div()
-	{
-		System.out.println("div");
-	}
-	
 }
