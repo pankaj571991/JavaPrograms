@@ -1,4 +1,4 @@
-package SeleniumBegining;
+package seleniumprogramsbegining;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 

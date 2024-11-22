@@ -1,4 +1,4 @@
-package SeleniumBegining;
+package seleniumprogramsbegining;
 
 import java.util.List;
 

@@ -1,15 +1,12 @@
-package accessspecifier;
+package testngpackage;
 
-public class Testcase1
+import org.testng.annotations.Test;
+
+public class TestCase1 extends LaunchQuit
 {
-	
-	public static void main(String[] args)
+	@Test
+	public void login_searching_add_login()
 	{
-		Testcase2 t1=new Testcase2();
-		t1.add();
-		t1.mul();
-		t1.div();
-		
+		System.out.println("Writing script of just searching and adding it to the cart");
 	}
-	
 }
